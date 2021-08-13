@@ -8,13 +8,13 @@ function App() {
   return (
     <>
     <div className="App">
-    {/* <Router>
+    {<Router>
        <Switch>
         <Route exact path='/' component={Register}/>
-        <Route exact path='/Product' component={Product}/>
+        <Route exact path='/AddProduct' component={Product}/>
         </Switch>
-    </Router> */}
-    <AddProduct/>
+    </Router>}
+//     <AddProduct/>
   {/* <Register/>
       <ShowData/> */}
     </div>

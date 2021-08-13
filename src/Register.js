@@ -56,7 +56,7 @@ const handleSubmit=(e)=>
             value={userRegistration.password} onChange={handleInput} name="password" id='password'></input>
              </div>
              <div classname="p-5 mx-3">
-             <Button  onClick={()=>history.push('/Product')} type='submit'>SUBMIT</Button>
+             <Button  onClick={()=>history.push('/AddProduct')} type='submit'>SUBMIT</Button>
              {/* <Button type='submit'>SUBMIT</Button> */}
              </div>
             </form> 
